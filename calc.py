@@ -80,6 +80,8 @@ while (True):
             print "Quotient: ", div(a, b)
         elif (op == "%"):
             print "Modulus: ", mod(a, b)
+		elif (op == "%"):
+            print "Quotient: ", mod(a, b)
         else:
             print "Invalid operation..."
 
