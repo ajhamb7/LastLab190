@@ -33,10 +33,16 @@ def mult(a, b):
 def div(a, b):
     return a / b
 
+
 # Modulus Divide function
 def mod(a, b):
 	return a % b
 
+#Exponent function
+#a -- value
+#b -- exponent
+def exp(a,b):
+    return a ** b
 # -------------------------------------------------------- #
 
 
@@ -64,6 +70,8 @@ while (True):
     if (op != None):
         if (op == "+"):
             print "Sum: ", add(a, b)
+        elif (op =="**"):
+            print "Exponent : ", exp(a, b)
         elif (op == "-"):
             print "Difference: ", sub(a, b)
         elif (op == "*"):
